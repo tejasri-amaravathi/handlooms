@@ -1,16 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import Tabs from './components/Tabs/tabs.js'
+import "./App.css";
+import Tabs from "./components/Tabs/tabs.js";
+import logo from "./images/logo.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Handlooms</h1>
-      </header>
-      <main>
+      <div>
+        <img src={logo} className="logo"/>
+      </div>
+      <div>
         <Tabs />
-      </main>
+      </div>
     </div>
   );
 }
