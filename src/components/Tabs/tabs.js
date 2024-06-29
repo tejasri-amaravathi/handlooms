@@ -1,24 +1,25 @@
-import React, { useState } from 'react';
-import Home from '../Home/home.js';
-import Services from '../Services/services.js';
-import Contact from '../Contact/contact.js';
-import Gallery from '../Gallery/gallery.js';
-import FAQ from '../FAQ/faq.js';
+import React, { useState } from "react";
+import Home from "../Home/home.js";
+import Services from "../Services/services.js";
+import Contact from "../Contact/contact.js";
+import Gallery from "../Gallery/gallery.js";
+import FAQ from "../FAQ/faq.js";
+import "./tabs.css";
 
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState('home');
+  const [activeTab, setActiveTab] = useState("home");
 
   const renderTab = () => {
     switch (activeTab) {
-      case 'home':
+      case "home":
         return <Home />;
-      case 'services':
+      case "services":
         return <Services />;
-      case 'faq':
+      case "faq":
         return <FAQ />;
-      case 'gallery':
+      case "gallery":
         return <Gallery />;
-      case 'contact':
+      case "contact":
         return <Contact />;
 
       default:
@@ -27,17 +28,15 @@ const Tabs = () => {
   };
 
   return (
-    <div className='tabs'>
+    <div className="tabs">
       <div className="tab-buttons">
-        <button onClick={() => setActiveTab('home')}>Home</button>
-        <button onClick={() => setActiveTab('services')}>Services</button>
-        <button onClick={() => setActiveTab('contact')}>Contact</button>
-        <button onClick={() => setActiveTab('gallery')}>Gallery</button>
-        <button onClick={() => setActiveTab('faq')}>FAQ's</button>
+        <button onClick={() => setActiveTab("home")}>Home</button>
+        <button onClick={() => setActiveTab("services")}>Services</button>
+        <button onClick={() => setActiveTab("contact")}>Contact</button>
+        <button onClick={() => setActiveTab("gallery")}>Gallery</button>
+        <button onClick={() => setActiveTab("faq")}>FAQ's</button>
       </div>
-      <div className="tab-content">
-        {renderTab()}
-      </div>
+      <div className="tab-content">{renderTab()}</div>
     </div>
   );
 };
