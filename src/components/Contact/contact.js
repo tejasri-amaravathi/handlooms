@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
+import gmailLogo from "../../images/gmail.png";
+import "./contact.css";
 
 const Contact = () => {
   return (
     <div>
-      <h2>Contact</h2>
-      <p>Contact us at contact@example.com</p>
+      <h2>Contact Us!</h2>
+      <div className="contact">
+        <img src={gmailLogo} className="gmail-logo" />
+        <span>Amaravathitejasri@gmail.com</span>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,10 @@
+.gmail-logo {
+  width: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
