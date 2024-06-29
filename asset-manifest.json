@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/handlooms/static/css/main.f855e6bc.css",
-    "main.js": "/handlooms/static/js/main.1c0bf695.js",
+    "main.css": "/handlooms/static/css/main.2e1a5789.css",
+    "main.js": "/handlooms/static/js/main.c78e090f.js",
     "static/js/453.0cc0ac16.chunk.js": "/handlooms/static/js/453.0cc0ac16.chunk.js",
-    "static/media/logo.svg": "/handlooms/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/handlooms/index.html",
-    "main.f855e6bc.css.map": "/handlooms/static/css/main.f855e6bc.css.map",
-    "main.1c0bf695.js.map": "/handlooms/static/js/main.1c0bf695.js.map",
+    "main.2e1a5789.css.map": "/handlooms/static/css/main.2e1a5789.css.map",
+    "main.c78e090f.js.map": "/handlooms/static/js/main.c78e090f.js.map",
     "453.0cc0ac16.chunk.js.map": "/handlooms/static/js/453.0cc0ac16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.1c0bf695.js"
+    "static/css/main.2e1a5789.css",
+    "static/js/main.c78e090f.js"
   ]
 }
