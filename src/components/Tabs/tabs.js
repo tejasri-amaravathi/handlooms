@@ -27,7 +27,7 @@ const Tabs = () => {
   };
 
   return (
-    <div>
+    <div className='tabs'>
       <div className="tab-buttons">
         <button onClick={() => setActiveTab('home')}>Home</button>
         <button onClick={() => setActiveTab('services')}>Services</button>
