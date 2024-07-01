@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/handlooms/static/css/main.73f565c1.css",
-    "main.js": "/handlooms/static/js/main.e4862f0c.js",
+    "main.css": "/handlooms/static/css/main.809cfff1.css",
+    "main.js": "/handlooms/static/js/main.6a914da0.js",
     "static/js/453.0cc0ac16.chunk.js": "/handlooms/static/js/453.0cc0ac16.chunk.js",
+    "static/media/galleryImage7.jpeg": "/handlooms/static/media/galleryImage7.1c6a61cfb040526e66c1.jpeg",
+    "static/media/galleryImage5.jpeg": "/handlooms/static/media/galleryImage5.0d2b58d7a4805b66314c.jpeg",
+    "static/media/galleryImage2.jpeg": "/handlooms/static/media/galleryImage2.f3087c25a9b7455ba50c.jpeg",
+    "static/media/galleryImage3.jpeg": "/handlooms/static/media/galleryImage3.706a4fd18c57f115134a.jpeg",
+    "static/media/galleryImage4.jpeg": "/handlooms/static/media/galleryImage4.706a4fd18c57f115134a.jpeg",
+    "static/media/galleryImage6.jpeg": "/handlooms/static/media/galleryImage6.7bfe2c7ed3852623bd68.jpeg",
+    "static/media/galleryImage10.jpeg": "/handlooms/static/media/galleryImage10.cf2960dd3ab4417929fe.jpeg",
+    "static/media/galleryImage8.jpeg": "/handlooms/static/media/galleryImage8.cf2960dd3ab4417929fe.jpeg",
+    "static/media/galleryImage1.jpeg": "/handlooms/static/media/galleryImage1.67c6165a557dbf97adb9.jpeg",
+    "static/media/galleryImage9.jpeg": "/handlooms/static/media/galleryImage9.8a5d332c110a5281ad74.jpeg",
     "index.html": "/handlooms/index.html",
-    "main.73f565c1.css.map": "/handlooms/static/css/main.73f565c1.css.map",
-    "main.e4862f0c.js.map": "/handlooms/static/js/main.e4862f0c.js.map",
+    "main.809cfff1.css.map": "/handlooms/static/css/main.809cfff1.css.map",
+    "main.6a914da0.js.map": "/handlooms/static/js/main.6a914da0.js.map",
     "453.0cc0ac16.chunk.js.map": "/handlooms/static/js/453.0cc0ac16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73f565c1.css",
-    "static/js/main.e4862f0c.js"
+    "static/css/main.809cfff1.css",
+    "static/js/main.6a914da0.js"
   ]
 }
